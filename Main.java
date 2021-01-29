@@ -8,12 +8,12 @@ class Main {
     int univAge = 18;
 
     System.out.println(yearsLeft(univAge,ageNow));
-    
+  }
     static String yearsLeft(int univAge, int ageNow)
     {
       int yearsLeft = univAge - ageNow;
       String years = "You have " + yearsLeft + "years left until college";
-      return years;
+      return years; 
     }
   }
 }
